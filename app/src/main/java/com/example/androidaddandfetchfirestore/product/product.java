@@ -14,7 +14,7 @@ public class product {
         this.category = category;
     }
 
-    //These are the getter and setter for name, price and category. All of them are functioning well
+    //Getter and Setter for product activity
     public int getPrice() {
         return price;
     }

@@ -45,6 +45,7 @@ public class productpage extends MainActivity {
         btnGetItem.setOnClickListener(v -> getFunction());
     }
 
+    //Added Firestore in this activity
     private void addFunction() {
         productObject.setName(etName.getText().toString());
         productObject.setPrice(Integer.parseInt(etPrice.getText().toString()));
