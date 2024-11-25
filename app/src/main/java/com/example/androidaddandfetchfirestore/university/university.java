@@ -12,7 +12,7 @@ public class university {
         this.website = website;
     }
 
-    //Getter and Setter for name, type and website
+    //Getter and Setter for this activity
     public university() {}
 
     public String getName() {
