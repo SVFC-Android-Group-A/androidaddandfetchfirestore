@@ -43,6 +43,7 @@ public class restaurantpage extends AppCompatActivity {
         btnGetItem.setOnClickListener(v -> getFunction());
     }
 
+    //Added Firestore in this activity
     private void addFunction() {
         restaurantObject.setName(etName.getText().toString());
         restaurantObject.setType(etType.getText().toString());

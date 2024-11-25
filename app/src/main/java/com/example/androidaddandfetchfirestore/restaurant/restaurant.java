@@ -10,7 +10,7 @@ public class restaurant {
         this.type = type;
     }
 
-    //these are the getter and setter for the name, type and location. All are functioning
+    //Getter and Setter for this activity
 
     public restaurant() {}
 
