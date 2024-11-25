@@ -43,7 +43,7 @@ public class universitypage extends AppCompatActivity {
         btnGetItem.setOnClickListener(v -> getFunction());
     }
 
-    // Added Firestore in this Activity
+    // Added Firestore in the University page
     private void addFunction() {
         // Set values from input fields to the university object
         universityObject.setName(etName.getText().toString());
