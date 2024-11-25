@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453776040219",
+    "project_id": "groupaandroidaddandfetch",
+    "storage_bucket": "groupaandroidaddandfetch.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453776040219:android:917de77d2811fe4a7fb3be",
+        "android_client_info": {
+          "package_name": "com.example.androidaddandfetchfirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw4rOo-BSdfsAR18NBfxgiZCe2KMP4rlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
