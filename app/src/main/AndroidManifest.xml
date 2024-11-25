@@ -12,15 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAddAndFetchFirestore"
         tools:targetApi="31">
+
+        <!-- MainActivity as the launcher activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- Product Page -->
+        <activity android:name=".product.productpage" />
+
+        <!-- Books Page -->
+        <activity android:name=".books.bookspage" />
+
+        <!-- Employee Page -->
+        <activity android:name=".employee.employeepage" />
+
+        <!-- Restaurant Page -->
+        <activity android:name=".restaurant.restaurantpage" />
+
+        <!-- University Page -->
+        <activity android:name=".university.universitypage" />
+
+    </application>
 </manifest>
