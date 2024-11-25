@@ -44,6 +44,7 @@ public class bookspage extends MainActivity {
         btnGetItem.setOnClickListener(v -> getFunction());
     }
 
+    //added firestore firebase in this code
     private void addFunction() {
         bookObject.setTitle(etTitle.getText().toString());
         bookObject.setAuthor(etAuthor.getText().toString());

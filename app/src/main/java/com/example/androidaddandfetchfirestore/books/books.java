@@ -15,7 +15,7 @@ public class books {
 
     public books() {}
 
-    //getter and setter part
+    //Getter and Setter for the book activity
     public String getTitle() {
         return title;
     }
