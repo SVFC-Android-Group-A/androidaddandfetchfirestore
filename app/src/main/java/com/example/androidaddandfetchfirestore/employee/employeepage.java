@@ -44,6 +44,7 @@ public class employeepage extends MainActivity {
         btnGetItem.setOnClickListener(v -> getFunction());
     }
 
+    // Added firestore in this activity
     private void addFunction() {
         employeeObject.setName(etName.getText().toString());
         employeeObject.setDepartment(etDepartment.getText().toString());

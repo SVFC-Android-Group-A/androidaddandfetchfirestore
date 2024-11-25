@@ -13,7 +13,7 @@ public class employee {
 
     public employee() {}
 
-    // These are the getter and setter for the name, department and email. All of them are functioning
+    // Getter and Setter for the employee activity
     public String getName() {
         return name;
     }
